@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+
+	
+		<style type="text/css">
+			body,ul,li,h1,h2,h3,h4,h5,h6,input,form{padding: 0; margin: 0;}
+			body{ font-family: "微软雅黑"; font-size: 14px; background: #FEFEFE;}
+			
+			#out_top{ height: 80px; border-bottom: 1px #CCC solid;}
+			
+			#top,#main{width: 1200px; margin: 0 auto; position: relative;}
+			
+			#top{ height: 80px;}
+			#top img{ position: absolute; left: 10px; top: 10px;}
+			#top span.top_link1{ position: absolute; left: 265px;top:28px;}
+			#top span.top_link1 a{ text-decoration: none;color: #555; margin-right: 10px;}
+			#top span.top_link1 a:hover{ text-decoration: underline;}
+			
+			#top form{ position: absolute; left: 530px; top: 20px; width: 290px; height: 34px; background: url(img/bak.png) no-repeat -4px -6px;}
+			#top form input[type="text"]{font-size: 12px; color: orange; position: absolute; left: 16px; top: 3px; width: 227px; height: 27px; border: 0; background: transparent;}
+			#top form input[type="submit"]{ position: absolute; left: 250px; top: 6px; width: 16px; height: 16px; border: 0; background: url(img/bak.png) no-repeat -377px -39px; cursor: pointer;}
+			
+			#top span.top_link2{ position: absolute; left: 1000px; top:25px; background: url(img/bak.png) no-repeat -365px 0px;}
+			#top span.top_link2 a{ margin-left: 25px; font-size: 12px; color: orange; text-decoration: none;}
+			#top span.top_link2 a:hover{text-decoration: underline;}
+			#top span.top_link3{ position: absolute; left: 1120px; top:25px;}
+			#top span.top_link3 a{ color: orangered; text-decoration: none; margin-right: 5px;}
+			#top span.top_link3 a:hover{ text-decoration: underline;}
+			
+			#main{height: 402px; margin-top: 30px;}
+			#main #left{ height: 402px; float: left; width: 248px; }
+			#main #right{ height: 402px; float: left;width:950px ; }
+			
+			#main #left .menu_list{ width: 196px; height:98px; border-bottom: 1px #CCCCCC solid; margin-left: 40px; }
+			#main #left .menu_list h1{ background:  url(img/bak.png) no-repeat 183px -47px; height: 22px; line-height: 22px; font-size: 18px; font-weight: 300;}
+		    #main #left .menu_list ul{ list-style: none;}
+		    #main #left .menu_list ul li { float: left; margin-top: 10px;}
+		    #main #left .menu_list ul li a{ line-height: 30px; text-decoration: none; color: #333; margin-right:10px;}
+		    #main #left .menu_list ul li a:hover{ text-decoration: underline;}
+		</style>
+	</head>
+	<body>
+		<div id="out_top">
+			<div id="top">  
+				<img src="img/logo.png" />
+				<span class="top_link1">
+					<a href="#">线下活动</a>
+					<a href="#">直播</a>
+				</span>
+				
+				<form action="#" method="get">
+					<input type="text" name="ww" placeholder="请输入要搜啊"/>
+					<input type="submit" value=" " />
+				</form>
+				
+				<span  class="top_link2">
+					<a href="#">开通VIP</a>
+				</span>
+				<span  class="top_link3">
+					<a href="#">登录</a>
+					<a href="#">注册</a>
+				</span>
+				
+			</div>
+		</div>
+		
+		<!--主区域-->
+		<div id="main">
+			<div id="left">
+				<div class="menu_list">
+					<div style="height: 28px;"></div>
+					<h1>行业热点</h1>
+					<ul>
+						<li><a href="#">传统企业转型</a></li>
+						<li><a href="#">新零售</a></li>
+					</ul>
+					<div style="clear: both;"></div>
+				</div>
+				
+					<div class="menu_list">
+					<div style="height: 28px;"></div>
+					<h1>行业热点</h1>
+					<ul>
+						<li><a href="#">传统</a></li>
+						<li><a href="#">新零售</a></li>
+						<li><a href="#">传统</a></li>
+					</ul>
+					<div style="clear: both;"></div>
+				</div>
+				
+					<div class="menu_list">
+					<div style="height: 28px;"></div>
+					<h1>行业热点</h1>
+					<ul>
+						<li><a href="#">传统企业转型</a></li>
+						<li><a href="#">新零售</a></li>
+					</ul>
+					<div style="clear: both;"></div>
+				</div>
+					<div class="menu_list">
+					<div style="height: 28px;"></div>
+					<h1>行业热点</h1>
+					<ul>
+						<li><a href="#">传统企业转型</a></li>
+						<li><a href="#">新零售</a></li>
+					</ul>
+					<div style="clear: both;"></div>
+				</div>
+				
+			</div>
+			<div id="right">
+				<img src="img/adwpic.jpg" width="950" height="402" />
+			</div>
+		</div>
+	</body>
+</html>
